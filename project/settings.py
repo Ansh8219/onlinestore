@@ -25,8 +25,8 @@ SECRET_KEY = "django-insecure-p-dau&^w9$dx=_a=je2tde2=8fx62)epqf4!7%_t+*r5hsgrug
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.1.74']
-
+ALLOWED_HOSTS = []
+# '192.168.1.74'
 
 # Application definition
 
@@ -121,4 +121,12 @@ STATIC_URL = "static/"
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
+
+## email 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+EMAIL_USE_TLS = True
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'anshu93172@gmail.com'
+EMAIL_HOST_PASSWORD = 'llgj cmjf sinh jygw'
+

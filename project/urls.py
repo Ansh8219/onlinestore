@@ -32,6 +32,11 @@ urlpatterns = [
     path('product_single/',views.product_single,name='product_single'),
     path('login/',views.login,name='login'),
     path('signup/',views.signup,name='signup'),
+    path('profile/',views.profile,name='profile'),
+    path('Logout/',views.Logout,name='Logout'),
+    path('logsign/',views.logsign,name='logsign'),
+    path('ChangePassword/',views.ChangePassword,name='ChangePassword'),
+
 
 
 ]
